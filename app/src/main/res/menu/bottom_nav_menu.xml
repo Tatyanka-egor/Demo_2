@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_baseline_tv_24"
+        android:title="Главное" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_baseline_library_add_check_24"
+        android:title="Подборка" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_baseline_star_border_24"
+        android:title="Коллекции" />
+    <item
+        android:id="@+id/navigation_dashboard2"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Профиль" />
+
+</menu>

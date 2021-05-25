@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-
     package="com.example.demo_2">
-    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,7 +12,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".entity.screens.ChatLiustScreen"></activity>
+        <activity
+            android:name=".entity.screens.MainScreen"
+            android:label="@string/title_activity_main_screen" />
+        <activity android:name=".entity.screens.SignInScreen" />
+        <activity android:name=".entity.screens.SignUpScreen" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".entity.screens.LaunchScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,4 +27,5 @@
             </intent-filter>
         </activity>
     </application>
+
 </manifest>
